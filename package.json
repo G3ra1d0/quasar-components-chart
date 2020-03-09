@@ -1,6 +1,21 @@
 {
   "name": "q-chart",
   "version": "0.1.0",
+  "description": "Utilizando Chart.js no Quasar Framework",
+  "author": {
+    "name": "Geraldo Vitor",
+    "email": "geraldovitor901@gmail.com"
+  },
+  "readmeFilename": "README.md",
+  "keywords": [
+    "chart",
+    "chartjs",
+    "quasarjs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/G3ra1d0/QChart.git"
+  },
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
