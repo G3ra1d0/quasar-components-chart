@@ -6,13 +6,14 @@
 import Chart from "chart.js";
 
 export default {
+  name: "QChart",
   props: ["identifier", "stilo", "type", "labels", "datasets", "options"],
   data() {
     return {};
   },
   mounted() {
     let ctx = document.getElementById(this.identifier);
-    let myChart = new Chart(ctx, {
+    new Chart(ctx, {
       type: this.type,
       data: {
         labels: this.labels,
